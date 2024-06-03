@@ -1,3 +1,6 @@
 ﻿/Fina.Shared/bin/
 /Fina.Web/bin/
 /Fina.Api/bin/
+/Fina.Shared/obj/
+/Fina.Web/obj/
+/Fina.Api/obj/
