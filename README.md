@@ -34,3 +34,14 @@ https://www.youtube.com/live/Uqlvj71FDyA
 ### Adicionando referência do projeto Shared ao projeto Web
 ``jornada-fullstack-balta\Fina.Web>dotnet add reference ../Fina.Shared``
 
+### Adicionando os fontes a um repositório no git
+``jornada-fullstack-balta>git init``
+
+### Adicionando o gitignore
+``jornada-fullstack-balta>dotnet new gitignore``
+
+### Adicionando os arquivos
+``jornada-fullstack-balta>git add -all``
+
+### Commitando os arquivos
+``jornada-fullstack-balta>git commit -a -m "Finalziado dia 1``
