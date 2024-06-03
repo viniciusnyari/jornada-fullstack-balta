@@ -1,6 +1,7 @@
 # jornada-fullstack-balta
 Jornada FullStack Balta
 https://www.youtube.com/live/Uqlvj71FDyA
+https://github.com/balta-io/jornada-fullstack-2024
 
 # Criando a estrutura básica do projeto
 
