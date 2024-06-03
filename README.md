@@ -1,5 +1,6 @@
 # jornada-fullstack-balta
 Jornada FullStack Balta
+https://www.youtube.com/live/Uqlvj71FDyA
 
 # Criando a estrutura básica do projeto
 
