@@ -2,6 +2,7 @@
 
 - [x] Live Dia 1: https://www.youtube.com/live/Uqlvj71FDyA
 - [x] Live Dia 2: https://www.youtube.com/watch?v=O0qiBF6zRNg
+- [x] Live Dia 3: https://www.youtube.com/watch?v=tSLxOA04jG4
 - [x] Repositório: https://github.com/balta-io/jornada-fullstack-2024
 
 # Criando a estrutura básica do projeto
