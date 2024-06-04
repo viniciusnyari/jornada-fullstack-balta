@@ -5,7 +5,7 @@ namespace Fina.Api.Endpoints;
 
 public static class Endpoint
 {
-    public static void MapEndPoints(this WebApplication app)
+    public static void MapEndpoints(this WebApplication app)
     {
         var endpoints = app.MapGroup("");
 

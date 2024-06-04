@@ -9,4 +9,7 @@ public static class Configuration
     public const int DefaultStatusCodeSuccessFinal = 299;
     public const int DefaultStatusCodeNotFound = 404;
     public const int DefaultStatusCodeInternalError = 500;
+
+    public static string BackendUrl { get; set; } = string.Empty;
+    public static string FrontendUrl { get; set; } = string.Empty;
 }

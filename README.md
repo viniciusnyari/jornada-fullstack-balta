@@ -1,8 +1,8 @@
 # jornada-fullstack-balta
 Jornada FullStack Balta
-- [ ]Live Dia 1: https://www.youtube.com/live/Uqlvj71FDyA
-- [ ] Live Dia 2: https://www.youtube.com/watch?v=O0qiBF6zRNg
-- [ ]Repositório: https://github.com/balta-io/jornada-fullstack-2024
+- [x] Live Dia 1: https://www.youtube.com/live/Uqlvj71FDyA
+- [x] Live Dia 2: https://www.youtube.com/watch?v=O0qiBF6zRNg
+- [x] Repositório: https://github.com/balta-io/jornada-fullstack-2024
 
 # Criando a estrutura básica do projeto
 
@@ -49,8 +49,9 @@ Jornada FullStack Balta
 ``jornada-fullstack-balta>git commit -a -m "Finalziado dia 1``
 
 ### SQL Server no Docker
-https://balta.io/blog/sql-server-docker
-``docker run --name sqlserver -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=1q2w3e4r@#$" -p 1433:1433 -d mcr.microsoft.com/mssql/server
+- [x] https://balta.io/blog/sql-server-docker
+
+- [x] ``docker run --name sqlserver -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=1q2w3e4r@#$" -p 1433:1433 -d mcr.microsoft.com/mssql/server
 Server=localhost,1433;Database=fina;User ID=sa;Password=1q2w3e4r@#$``
 
 ### Instalar o ef-tools
@@ -62,5 +63,8 @@ Server=localhost,1433;Database=fina;User ID=sa;Password=1q2w3e4r@#$``
 ### Criando database com base na migrations
 ``dotnet ef database update``
 
-### Adicionando o pacote do Swagger
+### Adicionando o pacote do OpenApi
 ``dotnet add package Microsoft.AspnetCore.OpenApi``
+
+### Adicionando o pacote do Swagger
+``dotnet add package Swashbuckle.AspnetCore``
