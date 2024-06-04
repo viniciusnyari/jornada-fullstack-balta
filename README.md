@@ -1,8 +1,8 @@
 # jornada-fullstack-balta
 Jornada FullStack Balta
-Dia 1.:https://www.youtube.com/live/Uqlvj71FDyA
-Dia 2.: https://www.youtube.com/watch?v=O0qiBF6zRNg
-Repositório.: https://github.com/balta-io/jornada-fullstack-2024
++ Live Dia 1:https://www.youtube.com/live/Uqlvj71FDyA
++ Live Dia 2: https://www.youtube.com/watch?v=O0qiBF6zRNg
++ Repositório: https://github.com/balta-io/jornada-fullstack-2024
 
 # Criando a estrutura básica do projeto
 
