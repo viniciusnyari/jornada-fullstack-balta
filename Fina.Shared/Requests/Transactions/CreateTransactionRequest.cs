@@ -9,13 +9,13 @@ public class CreateTransactionRequest : Request
     public string Title { get; set; } = string.Empty;
 
     [Required(ErrorMessage = "O tipo da transação é obrigatório")]
-    public ETransactionType Tipo { get; set; } = ETransactionType.Withdraw;
+    public ETransactionType Type { get; set; } = ETransactionType.Withdraw;
     
     [Required(ErrorMessage = "O valor da transação é obrigatório")]
     public decimal Amount { get; set; }
     
     [Required(ErrorMessage = "O identificador da categoria da transação é obrigatório")]
-    public long Category { get; set; }
+    public long CategoryId { get; set; }
     
     [Required(ErrorMessage = "A data da transação é obrigatório")]
     public DateTime? PaidOrReceivedAt { get; set; }
