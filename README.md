@@ -1,4 +1,6 @@
-# jornada-fullstack-balta
+![](https://d335luupugsy2.cloudfront.net/cms/files/55993/1714398976/$e5d5hnqw2sh)
+
+
 Jornada FullStack Balta
 - [x] Live Dia 1: https://www.youtube.com/live/Uqlvj71FDyA
 - [x] Live Dia 2: https://www.youtube.com/watch?v=O0qiBF6zRNg
