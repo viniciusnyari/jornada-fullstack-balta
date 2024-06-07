@@ -12,6 +12,8 @@ public class CategoryHandler(AppDbContext context) : ICategoryHandler
 {
     public async Task<Response<Category?>> CreateAsync(CreateCategoryRequest request)
     {
+        await Task.Delay(3000);
+        
         var category = new Category()
         {
             UserId = request.UserId,
