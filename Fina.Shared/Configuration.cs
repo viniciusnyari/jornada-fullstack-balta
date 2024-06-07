@@ -10,6 +10,6 @@ public static class Configuration
     public const int DefaultStatusCodeNotFound = 404;
     public const int DefaultStatusCodeInternalError = 500;
 
-    public static string BackendUrl { get; set; } = string.Empty;
-    public static string FrontendUrl { get; set; } = string.Empty;
+    public static string BackendUrl { get; set; } = "http://localhost:5250";
+    public static string FrontendUrl { get; set; } = "http://localhost:5200";
 }

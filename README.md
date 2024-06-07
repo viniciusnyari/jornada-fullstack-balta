@@ -49,23 +49,28 @@
 ### Commitando os arquivos
 ``jornada-fullstack-balta>git commit -a -m "Finalziado dia 1``
 
-### SQL Server no Docker
+### SQL Server no Docker e limitando a 1GB
 - [x] https://balta.io/blog/sql-server-docker
 
-- [x] ``docker run --name sqlserver -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=1q2w3e4r@#$" -p 1433:1433 -d mcr.microsoft.com/mssql/server
-Server=localhost,1433;Database=fina;User ID=sa;Password=1q2w3e4r@#$``
+- [x] ``docker run --name sqlserver_balta -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=1q2w3e4r@#$" -e "MSSQL_MEMORY_LIMIT_MB=1024" -p 1433:1433 -m 1024M -d mcr.microsoft.com/mssql/server``
 
-### Instalar o ef-tools
+### Instalar o ef-tools no Fina.Api
 ``Microsoft.EntityFrameworkCore.Tools``
 
-### Criando as migrations
+### Criando as migrations no Fina.Api
 ``dotnet ef migrations add v1``
 
-### Criando database com base na migrations
+### Criando database com base na migrations no Fina.Api
 ``dotnet ef database update``
 
-### Adicionando o pacote do OpenApi
+### Adicionando o pacote do OpenApi no Fina.Api
 ``dotnet add package Microsoft.AspnetCore.OpenApi``
 
-### Adicionando o pacote do Swagger
+### Adicionando o pacote do Swagger no Fina.Api 
 ``dotnet add package Swashbuckle.AspnetCore``
+
+### Adicionando o pacote MudBlazor no Fina.Web
+``dotnet add package MudBlazor``
+
+### Adicionando o pacote Http no Fina.Web
+``dotnet add package Microsoft.Extensions.Http``
