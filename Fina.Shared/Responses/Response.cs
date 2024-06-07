@@ -19,5 +19,7 @@ public class Response<TData>
     public string? Message { get; set; }
 
     [JsonIgnore]
-    public bool IsSuccess => _code is >= Configuration.DefaultStatusCodeSuccess and Configuration.DefaultStatusCodeSuccessFinal;
+    public bool IsSuccess => _code is >= Configuration.DefaultStatusCodeSuccess 
+        or Configuration.DefaultStatusCodeSuccessFinal 
+        or Configuration.DefaultStatusCodeSuccessFullCreated;
 }
