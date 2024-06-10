@@ -20,10 +20,14 @@
         <PropertyColumn Property="x=> x.Title" Title="Categoria"/>
         <TemplateColumn Class="d-flex justify-end">
             <CellTemplate>
+                <MudIconButton Icon="@Icons.Filled.Edit" 
+                               Color="Color.Primary"
+                               OnClick="() => OnUpdateButtonClickedAsync(context.Item.Id)"/>
+            
                 <MudIconButton
                     Icon="@Icons.Material.Filled.Delete"
                     Color="Color.Error"
-                    OnClick="()=> OnDeleteButtonClickedAsync(context.Item.Id, context.Item.Title)"></MudIconButton>
+                    OnClick="() => OnDeleteButtonClickedAsync(context.Item.Id, context.Item.Title)"/>
             </CellTemplate>
         </TemplateColumn>
     </Columns>

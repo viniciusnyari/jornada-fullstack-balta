@@ -1,5 +1,6 @@
 using Fina.Shared;
 using Fina.Shared.Handler;
+using Fina.Shared.Mapper;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Fina.Web;
@@ -19,5 +20,7 @@ builder.Services.AddHttpClient(WebConfiguration.HttpClientName,
     });
 
 builder.Services.AddTransient<ICategoryHandler, CategoryHandler>();
+
+builder.Services.AddAutoMapper(typeof(MapperProfile));
 
 await builder.Build().RunAsync();

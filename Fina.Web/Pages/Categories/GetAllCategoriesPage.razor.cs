@@ -20,6 +20,9 @@ public partial class GetAllCategoriesPage : ComponentBase
     
     [Inject] 
     public IDialogService Dialog { get; set; } = null!;
+    
+    [Inject] 
+    public NavigationManager NavigationManager { get; set; } = null!;
 
     protected override async Task OnInitializedAsync()
     {
@@ -55,6 +58,11 @@ public partial class GetAllCategoriesPage : ComponentBase
             await OnDeleteAsync(id, title);
         
         StateHasChanged();
+    }
+    
+    public void OnUpdateButtonClickedAsync(long id)
+    {
+        NavigationManager.NavigateTo($"/categorias/alterar/{id}");
     }
 
     public async Task OnDeleteAsync(long id, string title)
