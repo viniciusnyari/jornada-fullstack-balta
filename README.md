@@ -5,7 +5,35 @@
 - [x] Live Dia 3: https://www.youtube.com/watch?v=tSLxOA04jG4
 - [x] Repositório: https://github.com/balta-io/jornada-fullstack-2024
 
-# Criando a estrutura básica do projeto
+## Introdução
+
+Esse projeto visa realizar operações simmples usando Blazor com .NET 8, com base nos 3 dias de lives de André Baltieri, ou balta, 10x Microsoft MVP.
+
+______________________________________________________________________________
+## Sem tempo irmão!
+
+Se você quer ir direto ao ponto, recomendo que você siga esses passos para que a aplicação fique disponível e possa ver como isso realmente funciona.
+
+### SQL Server no Docker e limitando a 1GB
+- [x] https://balta.io/blog/sql-server-docker
+
+- [x] ``docker run --name sqlserver_balta -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=1q2w3e4r@#$" -e "MSSQL_MEMORY_LIMIT_MB=1024" -p 1433:1433 -m 1024M -d mcr.microsoft.com/mssql/server``
+
+### Instalar o ef-tools no Fina.Api
+``Microsoft.EntityFrameworkCore.Tools``
+
+### Criando as migrations no Fina.Api
+``dotnet ef migrations add v1``
+
+### Criando database com base na migrations no Fina.Api
+``dotnet ef database update``
+
+### Só executar
+Executar os dois projetos Fina.Web e Fina.ApPi
+______________________________________________________________________________
+## Estou com tempo irmão!
+
+Já que você é uma pessoa que tem tempo e gosta de ver as coisas serem feitas desde o começo, recomendo que siga os passos abaixo:
 
 ### Criar repositório
 ``cd jornada-fullstack-balta``
