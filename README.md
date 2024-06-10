@@ -7,7 +7,7 @@
 
 # Introdução
 
-Esse projeto visa realizar operações simmples usando Blazor com .NET 8, com base nos 3 dias de lives de André Baltieri, ou balta, 10x Microsoft MVP.
+Esse projeto visa realizar operações simples usando Blazor com .NET 8, com base nos 3 dias de lives de André Baltieri, ou balta, 10x Microsoft MVP.
 
 # Sem tempo irmão!
 
