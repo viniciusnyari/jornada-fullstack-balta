@@ -26,4 +26,10 @@
     <_ContentIncludedByDefault Remove="wwwroot\sample-data\weather.json" />
   </ItemGroup>
 
+  <ItemGroup>
+    <AdditionalFiles Include="Pages\Transactions\Create.razor" />
+    <AdditionalFiles Include="Pages\Transactions\GetAll.razor" />
+    <AdditionalFiles Include="Pages\Transactions\Update.razor" />
+  </ItemGroup>
+
 </Project>

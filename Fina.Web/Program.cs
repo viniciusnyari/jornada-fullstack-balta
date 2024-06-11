@@ -20,6 +20,7 @@ builder.Services.AddHttpClient(WebConfiguration.HttpClientName,
     });
 
 builder.Services.AddTransient<ICategoryHandler, CategoryHandler>();
+builder.Services.AddTransient<ITransactionHandler, TransactionHandler>();
 
 builder.Services.AddAutoMapper(typeof(MapperProfile));
 
