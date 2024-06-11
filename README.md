@@ -101,3 +101,12 @@ Já que você é uma pessoa que tem tempo e gosta de ver as coisas serem feitas 
 
 ### Adicionando o pacote Http no Fina.Web
 ``dotnet add package Microsoft.Extensions.Http``
+
+# Roadmap
+
+* CRUD de transações - em andamento
+* Melhorar layout
+* Autenticação jwt
+* Troca do layout
+* Menus laterais
+* Dashboards
